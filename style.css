@@ -1,0 +1,94 @@
+.chessboard {
+	margin: 0 auto 0 auto;
+	border: 1px solid black;
+	width: 539px;
+	height: 539px;
+	position: relative;
+}
+
+.row {
+	border-bottom: 1px solid black;
+	width: 540px;
+	height: 29px;
+}
+
+.line {
+	border-right: 1px solid black;
+	float: left;
+	width: 29px;
+	height: 30px;
+}
+
+.stars {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-radius: 5px;
+	background: black;
+}
+
+.left-top-star {
+	left: 87px;
+	top: 87px;
+}
+
+.right-top-star {
+	right: 87px;
+	top: 87px;
+}
+
+.left-bottom-star {
+	left: 87px;
+	bottom: 87px;
+}
+
+.right-bottom-star {
+	right: 87px;
+	bottom: 87px;
+}
+
+.left-star {
+	left: 87px;
+	top: 267px;
+}
+
+.top-star {
+	left: 267px;
+	top: 87px;
+}
+
+.right-star {
+	right: 87px;
+	top: 267px;
+}
+
+.bottom-star {
+	left: 267px;
+	bottom: 87px;
+}
+
+.middle-star {
+	left: 267px;
+	top: 267px;
+}
+
+.chesspiece {
+	position: absolute;
+	border: 1px solid black;
+	width: 26px;
+	height: 26px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 28px;
+	font-family: "Times New Roman";
+}
+
+.white-chesspiece {
+	background: white;
+	color: black;
+}
+
+.black-chesspiece {
+	background: black;
+	color: white;
+}
