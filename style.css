@@ -1,5 +1,12 @@
-.chessboard {
+.container {
 	margin: 0 auto 0 auto;
+	padding: 26px;
+	width: 565px;
+	height: 565px;
+}
+
+.chessboard {
+	margin: 30px auto 0 auto;
 	border: 1px solid black;
 	width: 539px;
 	height: 539px;
